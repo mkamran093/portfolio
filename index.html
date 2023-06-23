@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -33,10 +34,10 @@
         <h1>Muhammad Kamran</h1>
         <h3>And I'm a <span class="textline"></span></h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-          laboriosam impedit tempora debitis, provident necessitatibus cumque,
-          repudiandae tenetur dolorem illum corrupti natus. Corporis rerum unde
-          autem sit alias quo nemo.
+          I am a Student of Computer Science having a deep interest in the
+          fields of Web Development, Data Science and Blockchain. I am working
+          on these skills and looking for relevent internship and job
+          opportunities.
         </p>
         <div class="social-media">
           <a href=""><i class="bx bxl-facebook"></i></a>
@@ -47,7 +48,7 @@
         <button class="btn">Download CV</button>
       </div>
       <div class="home-img">
-        <img src="profile.png" alt="" />
+        <img src="profile.jpeg" alt="" />
       </div>
     </section>
 
@@ -76,8 +77,8 @@
           <i class="bx bx-code-alt"></i>
           <h3>Web Development</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-            perspiciatis quod eveniet commodi deserunt inventore!
+            I design and maintain Websites and Web Applications while ensuring
+            functionality and visual appeal.
             <a href="#" class="btn">Read More</a>
           </p>
         </div>
@@ -85,8 +86,8 @@
           <i class="bx bx-scatter-chart"></i>
           <h3>Data Science</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-            perspiciatis quod eveniet commodi deserunt inventore!
+            I analyze and interpret data using statistical techniques and ML
+            algorithms to extract valuable insights.
             <a href="#" class="btn">Read More</a>
           </p>
         </div>
@@ -94,8 +95,8 @@
           <i class="bx bx-bitcoin"></i>
           <h3>Blockchain Dev.</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-            perspiciatis quod eveniet commodi deserunt inventore!
+            I design and develop blockchain solutions, including smart contracts
+            and decentralized applications.
             <a href="#" class="btn">Read More</a>
           </p>
         </div>
@@ -178,14 +179,19 @@
     <!-- -----------------Contact Section----------------- -->
     <section class="contact" id="contact">
       <h2 class="allheading">Contact <span>Me</span></h2>
-      <form action="#">
+      <form
+        id="fcf-form-id"
+        class="fcf-form-class"
+        method="post"
+        action="contact-form-process.php"
+      >
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email" />
+          <input id="name" type="text" placeholder="Full Name" />
+          <input id="email" type="email" placeholder="Email" />
         </div>
         <div class="input-box">
-          <input type="tel" placeholder="Phone" />
-          <input type="text" placeholder="Subject" />
+          <input id="phone" type="tel" placeholder="Phone" />
+          <input id="subject" type="text" placeholder="Subject" />
         </div>
         <textarea
           name=""
@@ -208,7 +214,6 @@
         <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
